@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Transform endGoal;
+    public Transform Arrow;
+
     Animator m_Animator;
     Rigidbody m_Rigidbody;
 
@@ -22,6 +25,13 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
+    private void Update()
+    {
+        Vector3 goal_dir = endGoal.position - transform.position;
+        float angle = Mathf.Rad2Deg * Mathf.Acos(Vector3.Dot(Vector3.forward.normalized, goal_dir.normalized));
+        Arrow.rotation = Quaternion.Euler(0, angle, 0);
+    }
+
     void FixedUpdate()
     {
         float horizontal = Input.GetAxis("Horizontal");
