@@ -1,4 +1,6 @@
+Project Members: Tamanna Saini, Alex Summers
 
+Contributions:
 
 Linear Interpolation: We lerperd where the gargoyles vision to be more inline
 to where it is actually looking in current time, so each gargoyles vision rotates
