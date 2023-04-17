@@ -211,6 +211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PointofView
       objectReference: {fileID: 0}
+    - target: {fileID: 6022209257417006498, guid: 1cd889bd2c4120e4ba310ce1031f1490, type: 3}
+      propertyPath: m_TagString
+      value: Gargoyle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cd889bd2c4120e4ba310ce1031f1490, type: 3}
 --- !u!4 &5788004913897213948 stripped
