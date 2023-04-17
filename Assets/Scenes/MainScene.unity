@@ -2868,6 +2868,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8506100460816502933, guid: cb0ca4928dfc7a542a6d996094030477, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e50e4f3889323d848a50a0d4d1bad75c, type: 2}
+    - target: {fileID: 8993171570332751137, guid: cb0ca4928dfc7a542a6d996094030477, type: 3}
+      propertyPath: SizeModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8993171570332751137, guid: cb0ca4928dfc7a542a6d996094030477, type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8993171570332751137, guid: cb0ca4928dfc7a542a6d996094030477, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8993171570332751137, guid: cb0ca4928dfc7a542a6d996094030477, type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8993171570332751137, guid: cb0ca4928dfc7a542a6d996094030477, type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].time
+      value: 0.98809814
+      objectReference: {fileID: 0}
+    - target: {fileID: 8993171570332751137, guid: cb0ca4928dfc7a542a6d996094030477, type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8993171570332751137, guid: cb0ca4928dfc7a542a6d996094030477, type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8993171570332751137, guid: cb0ca4928dfc7a542a6d996094030477, type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[0].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8993171570332751137, guid: cb0ca4928dfc7a542a6d996094030477, type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].outSlope
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1050525632010362949, guid: cb0ca4928dfc7a542a6d996094030477, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cb0ca4928dfc7a542a6d996094030477, type: 3}
