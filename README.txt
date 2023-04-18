@@ -17,7 +17,8 @@ This is achieved by getting 2 dot products. The first is the vector from the pla
 Vector3.forward. The other dot product being vector from the player to the goal the other 
 reference vector.right. Then using those dot product to calculate the angle between them and 
 change the arrows transform to the calculated angle. We can then take the arctan2(x, z) (which considers the signs of the angles/dot prods)
-to then get the angle to the goal and apply it to the arrow above the player.
+to then get the angle to the goal and apply it to the arrow above the player. Note I used chatgpt to help me with the math
+I emailed eric he said it was fine.
 
 Particle Effect: The Ghosts all have white partilces emitting behind them in a cone
 shape. It makes it a little more spooky.
