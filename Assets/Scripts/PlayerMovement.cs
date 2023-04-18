@@ -28,7 +28,11 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         Vector3 goal_dir = endGoal.position - transform.position;
-        float angle = Mathf.Rad2Deg * Mathf.Acos(Vector3.Dot(Vector3.forward.normalized, goal_dir.normalized));
+
+        float dotRefZ = Vector3.Dot(Vector3.forward.normalized, goal_dir.normalized);
+        float dotRefX = Vector3.Dot(Vector3.right.normalized, goal_dir.normalized);
+
+        float angle = Mathf.Rad2Deg * Mathf.Atan2(dotRefX, dotRefZ);
         Arrow.rotation = Quaternion.Euler(0, angle, 0);
     }
 
