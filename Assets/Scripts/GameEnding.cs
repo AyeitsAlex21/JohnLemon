@@ -62,6 +62,7 @@ public class GameEnding : MonoBehaviour
             }
             else
             {
+                Debug.Log("HEYYYYY");
                 Application.Quit();
             }
         }
