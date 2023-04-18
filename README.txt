@@ -2,6 +2,8 @@ Project Members: Tamanna Saini, Alex Summers
 
 Contributions:
 
+Alex: Did 1/3 of tutorial, linear interp, dot, and particle effect.
+
 Linear Interpolation: We lerperd where the gargoyles vision to be more inline
 to where it is actually looking in current time, so each gargoyles vision rotates
 from -50 to 50 degrees on y-axis. This means the player can get caught from not only
