@@ -16,8 +16,8 @@ Dot Product: Have an arrow above the players head that points to the direction o
 This is achieved by getting 2 dot products. The first is the vector from the player to the goal and 
 Vector3.forward. The other dot product being vector from the player to the goal the other 
 reference vector.right. Then using those dot product to calculate the angle between them and 
-change the arrows transform to the calculated angle. We can then take the arctan(x/z) to then get
-the angle to the goal and apply it to the arrow above the player.
+change the arrows transform to the calculated angle. We can then take the arctan2(x, z) (which considers the signs of the angles/dot prods)
+to then get the angle to the goal and apply it to the arrow above the player.
 
 Particle Effect: The Ghosts all have white partilces emitting behind them in a cone
 shape. It makes it a little more spooky.
