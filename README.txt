@@ -4,6 +4,8 @@ Contributions:
 
 Alex: Did 1/3 of tutorial, linear interp, dot, and particle effect.
 
+Tamanna: Did 2/3 of the tutorial. 
+
 Linear Interpolation: We lerperd where the gargoyles vision to be more inline
 to where it is actually looking in current time, so each gargoyles vision rotates
 from -50 to 50 degrees on y-axis. This means the player can get caught from not only
@@ -19,3 +21,4 @@ the angle to the goal and apply it to the arrow above the player.
 
 Particle Effect: The Ghosts all have white partilces emitting behind them in a cone
 shape. It makes it a little more spooky.
+
